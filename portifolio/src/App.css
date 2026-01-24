@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.split-word:nth-last-child(1) {
+  color: #E6AF2E;
+  font-weight: bold;
+}
