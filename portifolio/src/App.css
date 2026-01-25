@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 .split-word:nth-last-child(1) {
-  color: #E6AF2E;
+  color: #3D348B;
   font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
 }
