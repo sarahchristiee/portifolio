@@ -75,26 +75,26 @@ function App() {
         <SplitText
         text="Oi! Meu nome é Sarah!"
         tag="p"
-        className='pl-20 absolute text-2xl -rotate-35 pt-10'
+        className=' absolute text-2xl -rotate-35 pt-10 2xl:pl-20 sm:pl-20'
       />
-        <img className='pl-50' src={SetaHome} alt="seta apontada para a foto de perfil" />
+        <img className='2xl:pl-50 md:pl-50' src={SetaHome} alt="seta apontada para a foto de perfil" />
       </div>
 
       {/* Foto de perfil e texto inicial */}
-      <div className='flex justify-center aling-center items-center gap-30'>
+      <div className='flex justify-center aling-center items-center 2xl:gap-40 md:gap-10'>
        
-       <img className='hover:scale-103 hover:rotate-6 hover:shadow-lg transition-all duration-300' src={Perfil} alt="Foto de perfil de Sarah Christie com uma moldura estilo polaroid em rascunho" /> 
+       <img className='hover:scale-103 hover:rotate-6 hover:shadow-lg transition-all duration-300 2xl:w-100 sm:w-80' src={Perfil} alt="Foto de perfil de Sarah Christie com uma moldura estilo polaroid em rascunho" /> 
        
        <div className='w-200 grid justify-center aling-center' >
        <SplitText
         text="Sou uma analista de sistemas, bem-vindos ao meu portfólio!"
         tag="p"
         splitType="words"
-        className="text-7xl"
+        className="2xl:text-6xl md:text-5xl sm:text-xl"
       />
 
-       <img src={Rabisco} alt="rabisco roxo abaixo da palavra portifólio" className='ml-80'/>
-       <p className='text-2xl pt-15' >Este portfólio é um espaço onde apresento meus projetos, estudos e experiências em tecnologia. Cada trabalho reflete meu cuidado com o desenvolvimento, a organização do código e a criação de soluções que façam sentido para quem usa.</p>
+       <img src={Rabisco} alt="rabisco roxo abaixo da palavra portifólio" className='2xl:pl-40 md:pl-115'/>
+       <p className='2xl:text-2xl md:text-xl pt-15' >Este portfólio é um espaço onde apresento meus projetos, estudos e experiências em tecnologia. Cada trabalho reflete meu cuidado com o desenvolvimento, a organização do código e a criação de soluções que façam sentido para quem usa.</p>
        </div>
       </div>
 
@@ -113,50 +113,50 @@ function App() {
         <SplitText
         text="Um pouquinho sobre mim!"
         tag="p"
-        className='text-6xl font-bold'
+        className='text-6xl font-bold 2xl:pl-32'
         />
       </div>
 
       {/* cards informativos */}
-      <div className='grid grid-cols-2 max-w-fit mx-auto gap-30 pt-30'>
+      <div className='grid grid-cols-2 max-w-fit mx-auto 2xl:gap-30 md:gap-15 pt-30'>
 
         {/* Formação */}
         <div className='relative'>
         <h2 className='absolute top-10 left-10 z-10 text-4xl font-extrabold'> Formação </h2>
-        <p className='absolute top-30 left-10 z-10 w-[80%] text-[clamp(1.4rem,3vw,1.5rem)] '>Tecnólogo em análise e desenvolvimento de sistemas na universidade Pitágoras Unopar Anhanguera - (2023 á 2025)</p>
-        <p className='absolute top-70 left-10 z-10 w-[80%] text-[clamp(1.4rem,3vw,1.5rem)]'>Curso técnico em análise e desenvolvimento de sistemas na instituição Senai Roberto Mange - (2025-2026)</p>
-        <img src={Card} alt="Moldura em estilo rabisco" className='w-180 z-0'/>
+        <p className='absolute top-30 left-10 z-10 w-[80%] sm:text-xl md:text-xl 2xl:text-2xl '>Tecnólogo em análise e desenvolvimento de sistemas na universidade Pitágoras Unopar Anhanguera - (2023 á 2025)</p>
+        <p className='absolute 2xl:top-70 md:top-60 left-10 z-10 w-[80%] sm:text-xl md:text-xl 2xl:text-2xl'>Curso técnico em análise e desenvolvimento de sistemas na instituição Senai Roberto Mange - (2025-2026)</p>
+        <img src={Card} alt="Moldura em estilo rabisco" className='2xl:w-180 md:w-140 z-0'/>
         </div>
 
         {/* Ferramentas */}
         <div className='relative'>
         <h2 className='absolute top-10 left-10 z-10 text-4xl font-extrabold'> Ferramentas </h2>
         <div className='grid grid-cols-5 gap-y-15 absolute z-10 top-35 left-10 items-center'>
-          <img src={Angular} alt="Logo do framework Angular" className='w-20' />
-          <img src={React} alt="Logo da biblioteca React" className='w-20' />
-          <img src={Html} alt="Logo da linguagem HTML5" className='w-20' />
-          <img src={Css} alt="Logo da linguagem CSS3" className='w-20' />
-          <img src={Tailwind} alt="Logo do framework Tailwind CSS" className='w-20' />
-          <img src={Javascript} alt="Logo da linguagem JavaScript" className='w-20' />
-          <img src={Typecript} alt="Logo da linguagem TypeScript" className='w-20' />
-          <img src={Python} alt="Logo da linguagem Python" className='w-20' />
+          <img src={Angular} alt="Logo do framework Angular" className='2xl:w-20 md:w-15' />
+          <img src={React} alt="Logo da biblioteca React" className='2xl:w-20 md:w-15' />
+          <img src={Html} alt="Logo da linguagem HTML5" className='2xl:w-20 md:w-15' />
+          <img src={Css} alt="Logo da linguagem CSS3" className='2xl:w-20 md:w-15' />
+          <img src={Tailwind} alt="Logo do framework Tailwind CSS" className='2xl:w-20 md:w-15' />
+          <img src={Javascript} alt="Logo da linguagem JavaScript" className='2xl:w-20 md:w-15' />
+          <img src={Typecript} alt="Logo da linguagem TypeScript" className='2xl:w-20 md:w-15' />
+          <img src={Python} alt="Logo da linguagem Python" className='2xl:w-20 md:w-15' />
           <img src={Django} alt="Logo do framework Django" />
         </div>
-        <img src={Card} alt="Moldura em estilo rabisco" className='w-180'/>
+        <img src={Card} alt="Moldura em estilo rabisco" className='2xl:w-180 md:w-140 z-0'/>
         </div>
 
         {/* Bônus */}
         <div className='relative'>
         <h2 className='absolute top-10 left-10 z-10 text-4xl font-extrabold'> Bônus </h2>
-        <p className='absolute top-30 left-10 z-10 w-[80%] text-[clamp(1.4rem,3vw,1.5rem)]' >
+        <p className='absolute 2xl:top-30 md:top-25 left-10 z-10 w-[80%] sm:text-xl md:text-xl 2xl:text-2xl' >
           Fui ganhadora da 9ª edição do Hackathon da ETS, onde, junto ao meu grupo, desenvolvi um mini projeto de automação de planilhas, 
           gestão de estoque e integração com notificações do Mercado Livre. 
           Nesse projeto, atuei como desenvolvedora front-end, aplicando meus conhecimentos em desenvolvimento web.</p>
-        <img src={Card} alt="Moldura em estilo rabisco" className='w-180'/>
+        <img src={Card} alt="Moldura em estilo rabisco" className='2xl:w-180 md:w-140 z-0'/>
         </div>
 
         <div>
-          <img src={FotoHackathon} alt=""  className='w-180'/>
+          <img src={FotoHackathon} alt=""  className='2xl:w-180 md:w-140 z-0'/>
         </div>
       </div>
 
@@ -179,17 +179,17 @@ function App() {
       </div>
 
       {/* Card projeto 1 */}
-      <div className='flex max-w-fit mx-auto relative justify-center items-center pt-30 gap-30'>
+      <div className='flex max-w-fit mx-auto relative justify-center items-center pt-30 2xl:gap-30 md:gap-10'>
       <div className='relative'>
-        <h2 className='absolute pt-80 pl-15 z-10 text-4xl font-extrabold'> Smart City </h2>
-        <p className='absolute pt-95 pl-15 z-10 text-xl w-[80%] '>
+        <h2 className='absolute 2xl:pt-80 md:pt-70 pl-15 z-10 2xl:text-4xl md:text-3xl font-extrabold'> Smart City </h2>
+        <p className='absolute 2xl:pt-95 md:pt-80 pl-15 z-10 2xl:text-xl 2xl:w-[80%] md:w-[85%]'>
           Projeto full stack desenvolvido como integrador do SENAI, 
           focado no gerenciamento de sensores (luminosidade, temperatura, umidade e contagem de pessoas), 
           com dashboards dinâmicos e autenticação JWT.
         </p>
 
        {/* botão com hover animado */}
-       <div className='absolute pl-15 bottom-0 pb-15'>
+       <div className='absolute pl-15 bottom-0 2xl:pb-15 md:pb-10'>
         <Magnet padding={70} disabled={false} magnetStrength={4}>
         <a href='https://github.com/sarahchristiee/smartcity.git' target="_blank" className="group flex items-center font-bold gap-2 bg-[#3D348B] text-white p-3 overflow-hidden transition-all duration-300 ease-in-out">
           {/* Seta */}
@@ -200,13 +200,13 @@ function App() {
         </Magnet>
        </div>
 
-        <img src={CardSmart} alt="Moldura em estilo rabisco" className='w-160 z-0'/>
+        <img src={CardSmart} alt="Moldura em estilo rabisco" className='2xl:w-160 md:w-130 z-0'/>
       </div>
 
       {/* Card projeto 2 */}
       <div className='relative'>
-        <h2 className='absolute pt-80 pl-15 z-10 text-4xl font-extrabold'> Taskly </h2>
-        <p className='absolute pt-95 pl-15 z-10 text-xl w-[80%] '>
+        <h2 className='absolute 2xl:pt-80 md:pt-70 pl-15 z-10 2xl:text-4xl md:text-3xl font-extrabold'> Taskly </h2>
+        <p className='absolute 2xl:pt-95 md:pt-80 pl-15 z-10 2xl:text-xl 2xl:w-[80%] md:w-[85%]' >
           Sistema web com front-end e back-end integrados, 
           criado para facilitar a organização de tarefas do dia a dia. 
           As atividades podem ser gerenciadas por listas ou por meio de um calendário 
@@ -214,7 +214,7 @@ function App() {
         </p>
       
       {/* botão com hover animado */}
-       <div className='absolute pl-15 bottom-0 pb-15'>
+       <div className='absolute pl-15 bottom-0 2xl:pb-15 md:pb-10 '>
         <Magnet padding={70} disabled={false} magnetStrength={4}>
         <a href='https://github.com/sarahchristiee/taskly.git' target="_blank" className="group flex items-center font-bold gap-2 bg-[#3D348B] text-white p-3 overflow-hidden transition-all duration-300 ease-in-out">
           {/* Seta */}
@@ -225,7 +225,7 @@ function App() {
         </Magnet>
        </div>
 
-        <img src={CardTaskly} alt="Moldura em estilo rabisco" className='w-160 z-0'/>
+        <img src={CardTaskly} alt="Moldura em estilo rabisco" className='2xl:w-160 md:w-130 z-0'/>
       </div>
       </div>
 
@@ -233,13 +233,13 @@ function App() {
       </div>
       
       {/* divisão */}
-      <div className='pt-30'>
+      <div className='pt-30 pb-10'>
       <img src={DivisaoCoracao} alt="3 flores roxas em ilustração 2d" className='absolute w-50 right-10' />
       <div className="w-full h-[10vh] bg-[#E6AF2E] my-6"></div>  
       </div>
 
       {/* Contato */}
-      <div id='contato' className='mt-15'>
+      <div id='contato' className='mt-15 mb-20'>
       <div id="projetos" className='max-w-fit mx-auto relative flex justify-center items-center'>
         <SplitText
         text="Contato"
@@ -250,7 +250,7 @@ function App() {
       </div>
 
         
-      <div className="flex justify-center items-center pt-40 gap-30">
+      <div className="flex justify-center items-center pt-40 2xl:gap-30 md:gap-20">
 
         {/* Github */}
         <div className=''>
@@ -260,19 +260,19 @@ function App() {
           </a>
         </div>
 
-        {/* Linkedin */}
-        <div >
-          <a href="" className='flex flex-col items-center gap-2'>
-           <img src={Linkedin} alt="" />
-           <p className='text-xl font-semibold'>Sarah Araújo</p>
-          </a>
-        </div>
-
         {/* Email */}
         <div>
           <a href="" className='flex flex-col items-center gap-2'>
            <img src={Email} alt="" />
            <p className='text-xl font-semibold'>sarahchristiearaujo@gmail.com</p>
+          </a>
+        </div>
+
+        {/* Linkedin */}
+        <div >
+          <a href="" className='flex flex-col items-center gap-2'>
+           <img src={Linkedin} alt="" />
+           <p className='text-xl font-semibold'>Sarah Araújo</p>
           </a>
         </div>
 
