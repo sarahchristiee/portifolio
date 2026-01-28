@@ -26,6 +26,9 @@ Ainda estou em constante aprendizado 🚀, então este portfólio representa par
   <a href="https://vitejs.dev/" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" />
   </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" />
+  </a>
 </p>
 
 ---
