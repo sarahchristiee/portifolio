@@ -1,4 +1,8 @@
-# 💼 Portfólio — React + Vite + TypeScript
+<p align="center">
+  <img src="./portifolio/public/logo.svg" alt="Logo do Projeto" width="160">
+</p>
+
+# Portfólio — React + Vite + TypeScript
 
 Este repositório contém meu **portfólio pessoal**, desenvolvido com foco em **estudo**, prática e para **demonstrar minhas habilidades em desenvolvimento front-end**.
 
@@ -80,3 +84,13 @@ Acesse no navegador (porta padrão do Vite):
 ```
 http://localhost:5173
 ```
+
+## 🎨 Acesse o figma do projeto:
+
+[Figma]([portifolio/public/logo.svg](https://www.figma.com/design/1s0rR1iwe7VSfOOGqJbBKs/Portif%C3%B3lio?t=dhzgFbO9YMAP4f08-1))
+
+---
+
+## 🔗 Acesse o site agora!
+
+[Redirecionar para o site]()
