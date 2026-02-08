@@ -87,10 +87,10 @@ http://localhost:5173
 
 ## 🎨 Acesse o figma do projeto:
 
-[Figma]([portifolio/public/logo.svg](https://www.figma.com/design/1s0rR1iwe7VSfOOGqJbBKs/Portif%C3%B3lio?t=dhzgFbO9YMAP4f08-1))
+[Figma](https://www.figma.com/design/1s0rR1iwe7VSfOOGqJbBKs/Portif%C3%B3lio?node-id=0-1&t=9ol0RhFGRqRvTfca-1)
 
 ---
 
 ## 🔗 Acesse o site agora!
 
-[Redirecionar para o site]()
+[Redirecionar para o site](https://portifolio-orpin-iota-51.vercel.app/)
