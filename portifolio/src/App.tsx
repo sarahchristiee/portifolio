@@ -7,7 +7,6 @@ import Perfil from './img/fotoPerfil.svg';
 import SetaHome from './img/setaHome.svg';
 import Card from './img/card.svg';
 import FotoHackathon from './img/fotoHackathon.svg';
-import Rabisco from './img/rabiscoGrande.svg';
 import Angular from './img/angular.svg';
 import ReactImg from './img/react.svg';
 import Html from './img/html.svg';
